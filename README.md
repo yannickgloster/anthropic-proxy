@@ -14,7 +14,6 @@ The proxy:
 ## Quick start
 
 ```bash
-cd backend/tmp/proxy
 uv sync
 uv run main.py gen-certs
 uv run main.py serve
